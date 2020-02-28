@@ -5,15 +5,13 @@ Standard usage:
 
 ```yaml
 DiscordClient Client = new DiscordClient();
-Client.Login(Token);`
+Client.Login(Token);
 
 Sending Messages:
-````yaml
-Client.SendMessage(ChannelId, Message, tts(either false or true), Embed);`
+Client.SendMessage(ChannelId, Message, tts(either false or true), Embed);
 
 Getting Users:
 
-```yaml
-Client.GetUser(UserId);`
+Client.GetUser(UserId);
 
 Finding Any bugs make a pull request or an issue
