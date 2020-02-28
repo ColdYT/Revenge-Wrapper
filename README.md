@@ -3,8 +3,9 @@ A C# discord api wrapper by Xaxlii#1337
 
 Standard usage:
 
-`DiscordClient Client = new DiscordClient();
-Client.Login(Token);`
+```yaml
+DiscordClient Client = new DiscordClient();
+Client.Login(Token);```
 
 Sending Messages:
 `Client.SendMessage(ChannelId, Message, tts(either false or true), Embed);`
