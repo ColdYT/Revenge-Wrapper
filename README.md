@@ -4,6 +4,7 @@ A C# discord api wrapper by Xaxlii#1337
 Standard usage:
 
 ```yaml
+Login:
 DiscordClient Client = new DiscordClient();
 Client.Login(Token);
 
